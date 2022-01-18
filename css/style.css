@@ -1,3 +1,66 @@
+@import "quote.css";
+@import "todo.css";
+
+body {
+  font-family: "Playfair Display", serif;
+  /* background-color: beige; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: tomato;
+  margin-bottom: 20px;
+}
+header span {
+  font-size: 25px;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+  outline: none;
+  padding: 0px 30px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  width: 350px;
+  align-items: center;
+}
+
+input:focus {
+  width: 40%;
+  text-align: center;
+}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#login-form button {
+  display: none;
+}
+
 .hidden {
   display: none;
+}
+
+#greeting {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  margin-top: 10px;
+}
+
+#weather {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
 }

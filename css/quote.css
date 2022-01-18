@@ -1,0 +1,21 @@
+#quote,
+#author {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+#quote {
+  /* margin-top: 50px; */
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: rgba(126, 128, 133, 0.808);
+  text-decoration-thickness: 1px;
+}
+
+#author {
+  padding-top: 20px;
+}
