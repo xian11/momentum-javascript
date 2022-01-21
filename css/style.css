@@ -71,7 +71,7 @@ textarea:focus::-webkit-input-placeholder {
 #weather {
   display: flex;
   justify-content: flex-end;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 img {
