@@ -1,4 +1,5 @@
 const API_KEY = "6a259ea83520d18b7a1a0b8b22aef9c4";
+//https://home.openweathermap.org/
 
 function onGeoOK(position) {
     const lat = position.coords.latitude;
