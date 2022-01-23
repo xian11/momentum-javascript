@@ -28,6 +28,16 @@ input {
   align-items: center;
 }
 
+#rename {
+  background-color: whitesmoke;
+  width: 20px;
+  border-radius: 20%;
+}
+#rename:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
 input::placeholder {
   color: whitesmoke;
   opacity: 0.9;
