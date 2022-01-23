@@ -26,3 +26,7 @@ if (savedUsername === null) {
 } else {
   paintGreetings(savedUsername);
 }
+
+if (window.innerWidth >= 600) {
+  alert("You can get your momentum on your phone!")
+}
